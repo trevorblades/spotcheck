@@ -17,9 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trevorblades.spotcheck",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.216378207213-2iarkd2v0qq8g64sf08cl0mf3jkebnq3"
+        }
+      }
     },
     "android": {
+      "package": "com.trevorblades.spotcheck",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
